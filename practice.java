@@ -3,8 +3,8 @@ public class practice{
     public static void main(String args[]){
         Scanner sc=new Scanner(System.in);
         System.out.println("Ques:1-->> Calculating the average of 3 number:\n");
-        String str=sc.next();
-        int a=sc.nextInt();
+        int A=sc.nextInt();
+        int B=sc.nextInt();
         int C=sc.nextInt();
         int Avg=(A+B+C)/3;
         System.out.println(Avg);
