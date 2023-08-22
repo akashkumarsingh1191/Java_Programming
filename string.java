@@ -25,6 +25,6 @@ public class string{
     }
     public static void main(String args[]){
         String path="WNEENESENNN";
-        System.out.print(Get_Sortest_Path(path));
+        System.out.println(Get_Sortest_Path(path));
     }
 }
