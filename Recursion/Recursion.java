@@ -1,11 +1,11 @@
-package Recursion;
+
 //  Creating a class name Recursion
 public class Recursion{
     // Creating a function to print number in Decreasing order 
     public static void printreverse(int n){    // Function create
         if(n==1){   //Base case.
             System.out.println(n);
-               return;
+               return;  
             }
         System.out.print(n+" ");
         printreverse(n-1); // Function call...
