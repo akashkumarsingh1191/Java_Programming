@@ -57,6 +57,6 @@ public class Back2 {
         }
         nQueen(board, 0);
         System.out.println("Total ways to solve N-Queen problem = "+count);
-
+        System.out.println();
     }
 }
