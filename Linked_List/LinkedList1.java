@@ -85,7 +85,7 @@ public class LinkedList1 {
         return val;
     }
     public static void main(String[] args) {
-        LinkedList ll =new LinkedList();
+        LinkedList1 ll =new LinkedList1();
         ll.addFirst(2);
         // ll.print();
         ll.addFirst(1);
@@ -97,7 +97,7 @@ public class LinkedList1 {
         ll.addFirst(5);
         ll.print();
         // System.out.println(ll.size);
-        // ll.removeFirst();
+        ll.removeFirst();
         ll.removeLast();
         ll.print();
     }
