@@ -33,7 +33,7 @@ public class LinkedList2 {
             System.out.print(temp.data + "->");
             temp = temp.next;
         }
-        System.out.println();
+        System.out.println("null");
     }
 
     public int helper(Node head,int key){
